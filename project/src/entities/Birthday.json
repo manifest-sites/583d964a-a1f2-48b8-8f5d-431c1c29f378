@@ -1,0 +1,38 @@
+{
+  "name": "Birthday",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the birthday entry"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the person whose birthday it is"
+    },
+    "birthDate": {
+      "type": "string",
+      "description": "Birth date in YYYY-MM-DD format"
+    },
+    "relationship": {
+      "type": "string",
+      "description": "Relationship to the person (friend, family, colleague, etc.)"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Phone number for sending wishes (optional)"
+    },
+    "email": {
+      "type": "string",
+      "description": "Email address for sending wishes (optional)"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes or gift ideas"
+    }
+  },
+  "required": [
+    "name",
+    "birthDate"
+  ]
+}
