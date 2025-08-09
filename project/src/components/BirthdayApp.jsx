@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Card, Button, Form, Input, DatePicker, Select, Modal, List, Avatar, Tag, Space, Divider, Typography, message } from 'antd'
-import { PlusOutlined, GiftOutlined, PhoneOutlined, MailOutlined, EditOutlined, DeleteOutlined, CakeOutlined } from '@ant-design/icons'
+import { PlusOutlined, GiftOutlined, PhoneOutlined, MailOutlined, EditOutlined, DeleteOutlined, SmileOutlined } from '@ant-design/icons'
 import { Birthday } from '../entities/Birthday'
 import dayjs from 'dayjs'
 
@@ -145,7 +145,7 @@ function BirthdayApp() {
     <div className="max-w-6xl mx-auto p-6">
       <div className="mb-8">
         <Title level={1} className="text-center mb-2">
-          <CakeOutlined className="mr-2" />
+          <SmileOutlined className="mr-2" />
           Birthday Wishes
         </Title>
         <Text className="block text-center text-gray-600">
